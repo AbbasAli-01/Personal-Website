@@ -63,14 +63,4 @@ The website is compatible with all modern browsers including:
 - CSS3
 - JavaScript (Vanilla)
 
-
-## License
-Feel free to use this template for your personal or commercial projects.
-
-## Credits
-- Font Awesome for icons
-- Unsplash for placeholder images
-
----
-
 © 2025 Syed Abbas Ali Kazmi. All Rights Reserved.
