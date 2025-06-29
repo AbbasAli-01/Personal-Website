@@ -13,7 +13,7 @@ This is a professional personal website template featuring a clean, modern desig
 - **Mobile-Friendly Navigation**: Hamburger menu for mobile devices
 
 ## Pages
-1. **Home Page**: Features a hero section, services, skills, and contact form
+1. **Home Page**: Features a self section, services, skills, and contact form
 2. **About Page**: Includes personal information, experience timeline, and testimonials
 3. **Portfolio Page**: Showcases projects with filtering capability and project approach
 
@@ -43,13 +43,6 @@ To customize the website with your personal information:
 4. Replace portfolio projects with your own work
 5. Update the copyright year in the footer if needed
 
-### Images
-The website currently uses placeholder images from Unsplash. To use your own images:
-
-1. Replace the background image URLs in the CSS file
-2. Add your own portfolio project images
-3. Replace the profile image on the About page
-4. Replace testimonial author images
 
 ## Browser Compatibility
 The website is compatible with all modern browsers including:
