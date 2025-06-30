@@ -9,6 +9,7 @@
     to {
         opacity: 1;
         transform: translateY(0);
+        /* Added ease-in-out for smoother transition */
     }
 }
 
@@ -21,6 +22,7 @@
     to {
         opacity: 1;
         transform: translateX(0);
+        /* Added ease-in-out for smoother transition */
     }
 }
 
@@ -33,6 +35,7 @@
     to {
         opacity: 1;
         transform: translateX(0);
+        /* Added ease-in-out for smoother transition */
     }
 }
 
@@ -45,6 +48,7 @@
     to {
         opacity: 1;
         transform: scale(1);
+        /* Added ease-in-out for smoother scaling */
     }
 }
 
@@ -54,10 +58,12 @@
         transform: translateY(0);
     }
     40% {
-        transform: translateY(-20px);
+        transform: translateY(-25px); /* Slightly increased bounce height */
+        animation-timing-function: ease-out; /* Smoother deceleration */
     }
     60% {
-        transform: translateY(-10px);
+        transform: translateY(-15px); /* Slightly adjusted mid-point */
+        animation-timing-function: ease-in; /* Smoother acceleration */
     }
 }
 
@@ -74,6 +80,7 @@
     100% {
         transform: scale(1);
         box-shadow: 0 0 0 0 rgba(99, 166, 215, 0);
+        /* Adjusted timings for smoother pulse effect */
     }
 }
 
@@ -97,6 +104,7 @@
     }
     20%, 40%, 60%, 80% {
         transform: translateX(5px);
+        /* Maintained shake as a more abrupt animation */
     }
 }
 
@@ -105,9 +113,11 @@
     0% {
         transform: translateY(0px);
     }
-    50% {
+    50% { /* Adjusted timing function for smoother floating */
         transform: translateY(-10px);
+        animation-timing-function: ease-in-out;
     }
+    /* Added ease-in-out for a smoother overall float */
     100% {
         transform: translateY(0px);
     }
@@ -115,6 +125,7 @@
 
 /* Typing Animation */
 @keyframes typing {
+    /* Typing and blink animations kept as is for distinct effect */
     from { width: 0 }
     to { width: 100% }
 }
@@ -126,6 +137,7 @@
 
 /* Shimmer Animation */
 @keyframes shimmer {
+    /* Shimmer animation typically linear, kept as is */
     0% {
         background-position: -200% 0;
     }
@@ -137,18 +149,22 @@
 /* Utility Animation Classes */
 .animate-fade-in {
     animation: fadeIn 1s forwards;
+    animation-timing-function: ease-in-out; /* Applied to utility class */
 }
 
 .animate-fade-in-left {
     animation: fadeInLeft 1s forwards;
+    animation-timing-function: ease-in-out; /* Applied to utility class */
 }
 
 .animate-fade-in-right {
     animation: fadeInRight 1s forwards;
+    animation-timing-function: ease-in-out; /* Applied to utility class */
 }
 
 .animate-zoom-in {
-    animation: zoomIn 0.8s forwards;
+    animation: zoomIn 1s forwards; /* Increased duration slightly */
+    animation-timing-function: ease-in-out; /* Applied to utility class */
 }
 
 .animate-bounce {
